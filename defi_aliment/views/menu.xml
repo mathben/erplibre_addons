@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!--Root menu-->
+
+    <menuitem id="defi_aliment" name="Defi Aliment" sequence="20" web_icon="defi_aliment,static/description/icon.png" />
+
+    <!--Sub menu-->
+
+    <menuitem id="menu" name="Menu" sequence="1" parent="defi_aliment" />
+
+    <!--Child menu-->
+
+    <menuitem id="aliment" name="Aliment" action="defi_aliment_aliment_action_window" sequence="1" parent="menu" />
+</odoo>

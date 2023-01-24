@@ -5,7 +5,12 @@
     "license": "AGPL-3",
     "website": "https://technolibre.ca",
     "application": True,
-    "depends": [
+    "depends": ["website"],
+    "data": [
+        "security/ir.model.access.csv",
+        "views/defi_aliment.xml",
+        "views/menu.xml",
+        "views/snippets.xml",
     ],
     "installable": True,
 }

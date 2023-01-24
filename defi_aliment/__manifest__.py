@@ -1,9 +1,9 @@
 {
-    "name": "Defi Aliment",
+    "name": "Défi aliment",
+    "summary": "Ce module affiche des aliments!",
     "version": "12.0.1.0",
-    "author": "TechnoLibre",
+    "author": "Me",
     "license": "AGPL-3",
-    "website": "https://technolibre.ca",
     "application": True,
     "depends": ["website"],
     "data": [

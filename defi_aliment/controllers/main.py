@@ -3,3 +3,4 @@ from odoo.http import request
 
 
 class DefiAlimentController(http.Controller):
+    pass

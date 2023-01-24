@@ -75,7 +75,7 @@ def post_init_hook(cr, e):
         # Generate snippet
         value_snippet = {
             "code_generator_id": code_generator_id.id,
-            "controller_feature": "model_show_item_list",
+            "controller_feature": "helloworld",
             "model_name": "defi.aliment",
             "enable_javascript": True,
             "snippet_type": "structure",
